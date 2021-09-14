@@ -35,3 +35,26 @@ code {
 .big {
   font-size: 70px;
 }
+
+.borders {
+  border-width:1px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  text-align:center;
+}
+
+.basket {
+  background-color: yellow;
+}
+.products {
+  background-color: green;
+}
+.request {
+  background-color: yellowgreen;
+}

@@ -1,11 +1,15 @@
 import './App.css';
-import ProductTable from './Components/ProductTable';
+// import ProductTable from './Components/ProductTable';
+// import KingContainer from './Components/KingContainer';
+import ProductManager from './Components/ProductManager';
 
 function App() {
 
   return (
     <>
-      <ProductTable/>
+    {/* <KingContainer /> */}
+      <ProductManager />
+
     </>
   );
 }
