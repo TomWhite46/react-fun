@@ -3,7 +3,7 @@ import Basket from './Basket';
 import Product from './Product';
 
 const ProductManager = () => {
-    const[products, setProducts] = useState([{"i":0, "nm": "Tomatoes","price": 100, "count":0},{"i":1,"nm": "Sausages","price": 300,"count":0},{"i":2,"nm": "Nice Crispy Bacon","price": 200,"count":0}]);
+    const[products, setProducts] = useState([{"i":0, "nm": "Tomatoes","price": 100, "count":0},{"i":1,"nm": "Sausages","price": 300,"count":0},{"i":2,"nm": "Nice, Crispy Bacon","price": 200,"count":0}]);
     const [totalItems, setTotalItems] = useState(0);
     const [totalPrice, setTotalPrice] = useState(0);
     
